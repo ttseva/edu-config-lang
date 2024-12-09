@@ -1,9 +1,25 @@
 {
-    "_ValidIdentifier": 123,
-    "stringExample": "This is a test string",
-    "arrayExample": [1, 2, 3, "text"],
-    "nestedArray": [[1, 2], ["a", "b"]],
-    "complexString": "Another example with special chars @\"test\"",
-    "emptyArray": [],
-    "floatNumber": 3.1415
+    "const1": "s",
+    "const2": "string",
+    "const3": 52,
+    "const4": 7.8,
+    "array1": ["item1", "item2", "item3"],
+    "array2": [1, 2, 3, 4],
+    "stringArray": ["string1", "string2", "string3"],
+    "nestedArray": [
+        ["nested1", "nested2"],
+        [5, 10, 15]
+    ],
+    "complexConst": {
+        "name": "result",
+        "expression": "{const3 1 +}"
+    },
+    "concatTest": {
+        "name": "greeting",
+        "expression": "{concat(const1, const2)}"
+    },
+    "ordTest": {
+        "name": "ordValue",
+        "expression": "{ord(const1)}"
+    }
 }
