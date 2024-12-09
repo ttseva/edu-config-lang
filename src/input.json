@@ -1,4 +1,5 @@
 {
+    "comment": "This is a comment",
     "const1": "s",
     "const2": "string",
     "const3": 52,
@@ -10,16 +11,16 @@
         ["nested1", "nested2"],
         [5, 10, 15]
     ],
-    "complexConst": {
-        "name": "result",
+    "postfixTest": {
+        "name": "incr",
         "expression": "{const3 1 +}"
     },
     "concatTest": {
-        "name": "greeting",
+        "name": "concat",
         "expression": "{concat(const1, const2)}"
     },
     "ordTest": {
-        "name": "ordValue",
+        "name": "ord",
         "expression": "{ord(const1)}"
     }
 }
