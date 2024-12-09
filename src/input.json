@@ -1,0 +1,9 @@
+{
+    "_ValidIdentifier": 123,
+    "stringExample": "This is a test string",
+    "arrayExample": [1, 2, 3, "text"],
+    "nestedArray": [[1, 2], ["a", "b"]],
+    "complexString": "Another example with special chars @\"test\"",
+    "emptyArray": [],
+    "floatNumber": 3.1415
+}
