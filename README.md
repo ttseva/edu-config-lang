@@ -43,3 +43,6 @@ python main.py --input src/input.json --output src/output.config
 ## 4. Примеры использования
 <img width="616" alt="image" src="https://github.com/user-attachments/assets/b0376cc9-7034-4e1c-8c03-290a9e668800">
 
+a
+aaa
+
